@@ -1,0 +1,42 @@
+{
+  "info": {
+    "name": "Nicolás Arias",
+    "title": "Software Engineer",
+    "phone": "(+57) 322 249 7943",
+    "mail": "nicolasarias870@gmail.com",
+    "web": "narias1999.github.io",
+    "address": "Bogotá, Carrera 81A # 72A - 08"
+  },
+  "description": "Self taught, I love technology and I learn about it every day. Currently I'm improving my understanding on the Computer Science fundamentals. I like to help people achieve their goals.",
+  "experience": [
+    {
+      "companyName": "Qbits Ing",
+      "position": "Fullstack Engineer",
+      "dateFrom": "Jan 2017",
+      "dateTo": "Oct 2018"
+    },
+    {
+      "companyName": "Bismark Colombia",
+      "position": "Software Engineer",
+      "dateFrom": "Nov 2018",
+      "dateTo": "Currently"
+    },
+    {
+      "companyName": "Your company? 😉",
+      "position": "Software Engineer",
+      "dateFrom": "Next week",
+      "dateTo": "Undefined"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Servicio Nacional de Aprendizaje",
+      "degree": "Associate Degree - Software Development",
+      "dateFrom": "Apr 2017",
+      "dateTo": "Apr 2018"
+    }
+  ],
+  "skills": ["Frontend development", "Backend development", "Problem Solving", "Algorithms", "Data structures"],
+  "interests": ["Cycling", "Chess", "Learn", "Music"],
+  "languages": ["JavaScript","Typescript", "Dart", "Python"]
+}
