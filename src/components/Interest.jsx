@@ -7,7 +7,7 @@ function Interest({ interests = [] }) {
       <ul className="List">
         {interests.map(
           (interest, index) => (
-            <li className="ListItem" key={index}>{interest}</li>
+            <li className="Interest-item" key={index}>{interest}</li>
           )
         )}
       </ul>

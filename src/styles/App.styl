@@ -1,3 +1,5 @@
+link-color = #3498db
+
 *
   margin 0
   padding 0
@@ -9,6 +11,15 @@ body
 h1, h2, h3
   margin-bottom 10px
 
+a
+  color lighten(link-color, 30%)
+  text-decoration none
+  &:hover
+    color link-color
+
+li
+  list-style none
+
 .ResumeContainer
   display grid
   grid-template "Header Header"\
@@ -16,6 +27,7 @@ h1, h2, h3
                 "Experience Experience"\
                 "Academic Skills"\
                 "Interest Languages"
+  grid-template-columns 1fr 1fr
   grid-gap 15px
   width 90%
   max-width 900px

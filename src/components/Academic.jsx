@@ -3,17 +3,19 @@ import ComplexItem from './ComplexItem';
 
 function Academic({ academicItems = [{}] }) {
   return (
-    <section className="Education">
-      <h2 className="Education-title">Education</h2>
-      <div className="Education-container">
+    <section className="Academic">
+      <h2 className="Academic-title">Education</h2>
+      <div className="Academic-container">
         {academicItems.map(
-          ({ institution, dateFrom, dateTo, degree }, index) => (
+          ({ institution, startDate, endDate, degree, description }, index) => (
             <ComplexItem
+              className="Academic-item"
               title={institution}
               subtitle={degree}
+              description={description}
+              dateFrom={startDate}
+              dateTo={endDate}
               key={index}
-              dateFrom={dateFrom}
-              dateTo={dateTo}
             />
           )
         )}

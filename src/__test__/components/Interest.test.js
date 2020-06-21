@@ -1,9 +1,10 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Interest from '../../components/Interest';
+import { data } from '../../../data.json';
 
 describe('<Interest />', () => {
-  const interest = mount(<Interest />);
+  const interest = mount(<Interest interests={data.interest} />);
 
   test('Interest render', () => {
     expect(interest.length).toEqual(1);
@@ -13,8 +14,8 @@ describe('<Interest />', () => {
     expect(interest.find('.Interest-title').length).toEqual(1);
   });
 
-  test('Interest has 3 items', () => {
-    expect(interest.find('.Interest-item').length).toBeGreaterThan(2);
+  test(`Interest has ${data.interest.length} items`, () => {
+    expect(interest.find('.Interest-item').length).toBe(data.interest.length);
   });
 
 });

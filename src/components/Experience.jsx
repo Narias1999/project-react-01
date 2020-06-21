@@ -8,13 +8,15 @@ function Experience({ experienceItems = [{}] }) {
       <h2 className="Experience-title">Experience</h2>
       <div className="Experience-container">
         {experienceItems.map(
-          ({ companyName, dateFrom, dateTo, position }, index) => (
+          ({ company, startDate, endDate, jobTitle, jobDescription }, index) => (
             <ComplexItem
-              title={companyName}
-              subtitle={position}
+              className="Experience-item"
+              title={company}
+              subtitle={jobTitle}
               key={index}
-              dateFrom={dateFrom}
-              dateTo={dateTo}
+              dateFrom={startDate}
+              dateTo={endDate}
+              description={jobDescription}
             />
           )
         )}

@@ -1,82 +1,65 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Nicolás Arias",
+    "profession": "Software Engineer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
+    "email": "nicolasarias870@gmail.com",
+    "website": "narias1999.github.io",
+    "phone": "(+57) 322 249 7943",
+    "avatar": "https://narias1999.github.io/assets/profile.jpg",
+    "Profile": "Fullstack Developer focusend in frontend. Currently Software Engineer at Bismark Colombia. Experience in Frontend Development using HTML5, CSS3, Javascript(ES6+), Vue, AngularJs and React (personal projects only). In Backend with NodeJs and GraphQl. And in mobile development with Kotlin and React Native. Lifelong learner, currently learning computer science fundamentals.",
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Associate Degree - Software Development",
+        "description": "Technical formation in software development, learn about the whole process of building large scale software. Design Patterns, OOP, web and mobile development.",
+        "endDate": "Apr 2019",
+        "institution": "SENA",
+        "startDate": "Apr 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Bismark Colombia",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Bismark Colombia is a telecomunicatios and IoT company industry's leader in Colombia. There I develope high quality user faced software in an agile and highly talented team.\nIn my daily work, I have to use technologies like JavaScript ,HTML, CSS and AngularJs for web apps. NodeJs for microservices, IoT agents and AWS lambdas. Also, I have to do development of new features of an already existed Android app.\nAll of that integrated with the cloud platform Cumulocity IoT.",
+        "jobTitle": "Software Engineer",
+        "startDate": "Nov 2018"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Qbits Ing.",
+        "endDate": "Oct 2018",
+        "jobDescription": "Developing end to end web and mobile applications as freelancers in a small but highly talented team.\nStack used ES6, VueJs, React Native, NodeJs, MongoDB and GraphQL.",
+        "jobTitle": "Fullstack Engineer",
+        "startDate": "Jan 2017"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
+        "name": "Frontend development",
         "percentage": "90%"
+      },
+      {
+        "name": "Backend development",
+        "percentage": "60%"
+      },
+      {
+        "name": "Problem Solving",
+        "percentage": "80%"
+      },
+      {
+        "name": "Algorithms",
+        "percentage": "80%"
+      },
+      {
+        "name": "Data structures",
+        "percentage": "85%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Frontend development",
+      "Software Architecture",
+      "System Design",
+      "Leadership"
     ],
     "languages": [
       {
@@ -85,7 +68,11 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
+      },
+      {
+        "name": "Colombian",
+        "percentage": "100%"
       }
     ],
     "social": [

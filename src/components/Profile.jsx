@@ -3,8 +3,8 @@ import './../styles/components/Profile.styl'
 
 function Profile({ description }) {
   return <section className="Profile">
-    <h2>Profile</h2>
-    <p className="Profile-description">{description}</p>
+    <h2 className="Profile-title">Profile</h2>
+    <p className="Profile-desc">{description}</p>
   </section>
 }
 
